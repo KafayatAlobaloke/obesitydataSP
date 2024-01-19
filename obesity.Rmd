@@ -1,0 +1,34 @@
+README
+
+Introduction
+Obesity has emerged as a global health challenge with significant implications for public health. The prevalence of obesity has risen dramatically over the past few decades, leading to severe health consequences such as cardiovascular diseases, diabetes, and various metabolic disorders. Understanding and addressing obesity is crucial for developing preventive measures and personalized intervention strategies. In the context of our research, we focus on the application area of health and well-being, where the accurate classification of obesity levels can facilitate early detection and targeted interventions. Obesity poses a significant challenge to public health, with its prevalence steadily increasing over the past few decades. According to the World Health Organization (WHO), obesity has more than doubled worldwide since 1980. In 2016, 39% of adults aged 18 years and over were overweight, and 13% were obese. These statistics underscore the urgency of addressing obesity through advanced analytical approaches to mitigate its impact on public health.
+
+The primary objective of this research is to develop a robust and accurate classification model using a Neural Network algorithm for categorizing gender into different obesity levels. By employing this analysis, we seek to contribute to the field of health informatics and provide a valuable tool for healthcare professionals to identify and address obesity-related concerns promptly.
+
+The selection of a Neural Network algorithm for the classification of obesity levels is motivated by its interpretability, simplicity, and efficiency in handling both categorical and numerical data. Neural networks provide a transparent and intuitive framework for decision-making, enabling healthcare professionals to understand the factors influencing the classification outcomes. Additionally, Neural networks are well-suited for handling complex relationships between input features and the target variable. Given the multi-faceted nature of obesity, where multiple factors contribute to its classification, the Neural Network approach allows us to capture non-linear interactions and hierarchies within the data.
+
+
+Data Selection
+The data contains numerical data and continuous data, so it can be used for analysis based on algorithms of classification, and prediction. The data consist of the estimation of obesity levels in people from the countries of Mexico, Peru and Colombia, with ages between 14 and 61 and diverse eating habits and physical condition, data was collected using a web platform with a survey where anonymous users answered each question, then the information was processed obtaining 17 attributes and 2111 records.
+
+
+Attribute Information:
+The attributes related with eating habits are:
+FAVC: Frequent consumption of high caloric food, FCVC: Frequency of consumption of vegetables, NCP: Number of main meals, CAEC: Consumption of food between meals, CH20: Consumption of water daily, CALC: Consumption of alcohol.
+
+The attributes related with the physical condition are:
+SCC: Calories consumption monitoring, FAF: Physical activity frequency, TUE: Time using technology devices, MTRANS: Transportation used.
+
+Variables obtained:
+Gender, Age, Height and Weight.
+
+Obesity values are:
+Underweight: Less than 18.5
+Normal: 18.5 to 24.9
+Overweight: 25.0 to 29.9.
+Obese Obesity I: 30.0 to 34.9
+Obesity II: 35.0 to 39.9
+Obesity III: Higher than 40.
+
+
+
